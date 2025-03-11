@@ -4,7 +4,7 @@ This is a project of TOP. This project include HTML and CSS.
 
 ## Hunt Showdown Page
 
-This page is inspire by my favorite extract-shooting game - Hunt Showdown 1896
+This page is inspire by my favorite extraction shooter game - Hunt Showdown 1896
 
 ### Images credit
 
