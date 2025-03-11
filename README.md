@@ -6,7 +6,7 @@ This is a project of TOP. This project include HTML and CSS.
 
 This page is inspire by my favorite extraction shooter game - Hunt Showdown 1896
 
-Link to my Page: [#Hunt Showdown Page] (https://vyd1nk1902.github.io/odin_project_landing_page)
+Link to my Page: [#Hunt Showdown Page](https://vyd1nk1902.github.io/odin_project_landing_page)
 
 ### Images credit
 
