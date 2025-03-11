@@ -8,6 +8,6 @@ This page is inspire by my favorite extract-shooting game - Hunt Showdown 1896
 
 ### Images credit
 
-Link to images credit: https://www.huntshowdown.com/media/images (#Images credit)
+Link to images credit: [#Images credit](https://www.huntshowdown.com/media/images)
 
 ![Images of TOP](https://www.skillfinder.com.au/media/wysiwyg/the-odin-project-logo-skill-finder-partners-page.png)
