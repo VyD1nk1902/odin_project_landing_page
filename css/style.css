@@ -1,3 +1,7 @@
+img {
+  border-radius: 8px;
+}
+
 .header {
   background-color: black;
   display: flex;
@@ -45,15 +49,17 @@
   filter: blur(10px);
 }
 
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 .banner__content {
   position: relative;
-  color: white;
   font-size: 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1400px;
-  margin: 0px auto;
 }
 
 .banner__title,
@@ -76,13 +82,14 @@
 
 .btn {
   margin-top: 15px;
+  background-color: black;
 }
 .btn-1 {
   padding: 8px 16px;
   border: 1px solid black;
   font-weight: 600;
   font-size: 16px;
-  color: black;
+  color: #dae2e4;
   border-radius: 8px;
   transition: all 1s ease;
   display: inline-block;
@@ -101,16 +108,9 @@
   background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.9), transparent);
   transition: all linear 0.5s;
 }
-.btn-1:hover {
-  background-color: white;
-  color: black;
-}
+
 .btn-1:hover::before {
   left: 100%;
-}
-
-img {
-  border-radius: 8px;
 }
 
 .card__list {
@@ -118,10 +118,10 @@ img {
   padding: 50px;
 }
 
-.card__container {
+/* .card__container {
   max-width: 1400px;
   margin: auto;
-}
+} */
 
 .card__title {
   text-align: center;
@@ -145,7 +145,69 @@ img {
 }
 
 .card--item {
+  width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.quote {
+  padding: 100px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  font-family: "light italic";
+}
+
+.quote__content {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+.quote__auth {
+  font-size: 30px;
+  float: right;
+}
+
+.subcribe {
+  background-color: #0a1117;
+  padding: 50px;
+}
+
+.subcribe__wrap {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subcribe__left {
+  color: white;
+  max-width: 600px;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.subcribe__right {
+  display: flex;
+}
+
+input,
+.btn-sub {
+  background: transparent;
+  border: 1px solid rgba(136, 155, 162, 0.5);
+  margin: 0;
+  border-radius: 0;
+  color: #dae2e4;
+  padding: 12px 24px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  color: white;
+  padding: 20px;
 }
